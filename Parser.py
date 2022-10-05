@@ -4,6 +4,6 @@ def coutn_len_str():
     for el in str:
         if len(el) <= 3:
             new_str.append(el)
-    print(new_str)
+    print(f' New list is {new_str}')
 
 coutn_len_str()
